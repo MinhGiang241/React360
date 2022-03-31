@@ -1,0 +1,7 @@
+node_modules\metro-config\src\defaults\blacklist.js
+node_modules\metro\src\blacklist.js
+
+change
+/node_modules[/\\]react[/\\]dist[/\\].*/,
+to
+/node_modules[\/\\]react[\/\\]dist[\/\\].*/,
